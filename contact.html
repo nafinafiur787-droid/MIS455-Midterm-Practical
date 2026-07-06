@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Tech | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">NextGen Tech</div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <h1>Get In Touch</h1>
+        <p>Have an inquiry regarding bulk distribution ordering, custom firmware deployments, or server-side accounts? Drop us a prompt query below.</p>
+        
+        <form class="contact-form" onsubmit="event.preventDefault();">
+            <div class="form-group">
+                <label for="userName">Full Name:</label>
+                <input type="text" id="userName" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="userEmail">Email Address:</label>
+                <input type="email" id="userEmail" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="userMsg">Your Message:</label>
+                <textarea id="userMsg" rows="5" placeholder="Write your text message here..." required></textarea>
+            </div>
+            
+            <button type="button" class="btn-submit" onclick="submitForm()">Send Message</button>
+        </form>
+
+        <section class="office-locations">
+            <h2>Headquarters Office</h2>
+            <p>Conveniently stationed near the capital corporate hubs. Visit our helpdesk stations for technical hardware repairs and instant physical customer troubleshooting evaluations.</p>
+            <div class="contact-images">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" alt="Tech Office Spaces" style="width:48%; border-radius: 8px;">
+                <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=400" alt="Conference Suite" style="width:48%; border-radius: 8px;">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NextGen Tech. All Rights Reserved. MIS 455 Practical Midterm.</p>
+    </footer>
+</body>
+</html>
