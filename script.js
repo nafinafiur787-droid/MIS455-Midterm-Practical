@@ -12,3 +12,5 @@ function submitForm() {
         alert("Thank you, " + nameInput + "! Your inquiry message has been securely transmitted to our engineering team.");
     }
 }
+
+console.log("NextGen Tech script initialized successfully.");
